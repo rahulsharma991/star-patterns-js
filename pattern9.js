@@ -1,6 +1,6 @@
 ((value) => {
   let str = "";
-  for (let i = 1; i <= value; i++) {
+  for (let i = value; i >= 1; i--) {
     for (let j = 1; j <= i; j++) {
       str += j;
     }
@@ -10,8 +10,8 @@
 })(5);
 
 // pattern
-// 1
-// 12
-// 123
-// 1234
 // 12345
+// 1234
+// 123
+// 12
+// 1
